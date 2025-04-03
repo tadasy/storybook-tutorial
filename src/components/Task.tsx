@@ -32,6 +32,11 @@ export default function Task({ task: { id, title, state }, onPinTask, onArchiveT
                     readOnly={true}
                     name="title"
                     placeholder="タスク名"
+                    style={{
+                        textOverflow: "ellipsis",
+                        overflow: "hidden",
+                        whiteSpace: "nowrap"
+                    }}
                 />
             </label>
 

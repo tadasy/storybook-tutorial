@@ -33,3 +33,12 @@ export const Archived = {
     },
   },
 };
+
+export const LongTitle = {
+  args: {
+    task: {
+      ...Default.args.task,
+      title: "これでChromaticは独自のビルドプロセスをスキップし、あなたが事前にnpmを使って生成したStorybookビルドを使用します。skip: buildパラメータが内部ビルドプロセスをスキップさせ、storybookBuildDirで既にビルドされたディレクトリを指定します。",
+    },
+  },
+};
